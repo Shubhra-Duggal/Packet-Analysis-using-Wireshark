@@ -16,8 +16,32 @@ There would be 3 panes displayed- packet list, packet details and packet bytes. 
 
 ### Capture Filters
 
-### Protocol Filters
+![Capture options](/Images/capture_filters_input.png)
+![Capture options](/Images/capture_filters_output.png)
 
-### BSF Syntax
+
+
+
+You can also create complex filters and save them for future use.
+![user-defined_filters](/Images/user-defined_filters.png)
+
+
+
+### Berkeley Packet Filter (BPF)
+The filter created is called an expression. We have the following list of qualifiers and corresponding primitives:
+
+![List](/Images/qualifiers_primitives.png)
+
+Logical operators as the following can also be added:
+* AND (&&)
+* OR (||)
+* NOT (!)
+
+### Capture vs Display Filter
+Display filter shows only the packet without losing all the data in the capture file. 
+
+![Display filter pane](/Images/display_filter_pane.png)
+
+
 
 ## Protocol-wise Analysis
