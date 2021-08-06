@@ -16,8 +16,8 @@ There would be 3 panes displayed- packet list, packet details and packet bytes. 
 
 ### Capture Filters
 
-![Capture options](/Images/capture_filters_input.png)
-![Capture options](/Images/capture_filters_output.png)
+![Capture options](/Images/capture_filter_input.png)
+![Capture options](/Images/capture_filter_output.png)
 
 
 
@@ -30,7 +30,12 @@ You can also create complex filters and save them for future use.
 ### Berkeley Packet Filter (BPF)
 The filter created is called an expression. We have the following list of qualifiers and corresponding primitives:
 
-![List](/Images/qualifiers_primitives.png)
+| Qualifier | Description | Example |
+| --------- | ----------- | ------- |
+| Type | ID name or number | host, net, port |
+| Dir | Transfer direction | src, dst |
+| Proto | Match to protocol | ether, ip, tcp, udp, http, ftp |
+
 
 Logical operators as the following can also be added:
 * AND (&&)
