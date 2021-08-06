@@ -46,3 +46,8 @@ Display filter shows only the packet without losing all the data in the capture 
 ![Display filter pane](/Images/display_filter_pane.png)
 
 ## Protocol-wise Analysis
+
+* [Dynamic Host Configuration Protocol](/dhcp.md): It is responsible for dynamically allocating ip addresses to the devices on the network.
+* [Domain Name System](/dns.md): Maps domain names to ip addresses
+* [Address Resolution Protocol](/arp.md): It resolves the ip address to corresponding MAC address.
+* Hypertext Transfer Protocol: It connects web browsers to web servers tpo view web pages
