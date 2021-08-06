@@ -4,7 +4,7 @@
 
 ![packet_structure_dns](https://user-images.githubusercontent.com/42912140/128457872-75148cef-584e-4f6f-820a-6de52e01e649.png)
 
-* DNS ID Number: Associates DNS queries with DNS responses.
+* Transaction ID: Associates DNS queries with DNS responses.
 * OpCode: Type of query.
 * Authoritative Answers (AA): Response is from a name server with authority over the domain.
 * Truncation (TC): Response was truncated because it was too large to fit within the packet.
