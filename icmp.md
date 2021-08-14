@@ -8,6 +8,14 @@ used to determine whether the target host is available and can be reached over t
 between ping requests and replies, we know the round trip time (RTT) delay time over the network path.
 
 
+## ICMP Code
+
+![Screenshot 2021-08-14 at 5 37 57 PM](https://user-images.githubusercontent.com/42912140/129445972-997ed166-db03-4975-97ef-ee86af8d533d.png)
+
+
+
+
+
 The host (Mac OS) machine pings the virtual machine (Ubuntu) and receives the reply. The machine 172.16.117.2 is pinged from the machine 172.16.117.2 and the reply is received.
 ![Screenshot 2021-08-14 at 5 03 25 PM](https://user-images.githubusercontent.com/42912140/129445159-a0eaf63b-84e3-4705-b41d-a4da46174220.png)
 
