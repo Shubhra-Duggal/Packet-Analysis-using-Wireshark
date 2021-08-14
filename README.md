@@ -14,7 +14,17 @@ Wireshark has been [setup on the machine](installation_wireshark.md) and the int
 ## Conversations
 Sometimes we need identify the specific packets. This can be done by identifying the IP addresses of the source and destination. Even the conversation between specific nodes can also be filtered out. [Conversation](conversations_wireshark.md) can be accessed from the Statistics menu.
 
+## Capture Location
+The [selection of location](location_wireshark.md) to capture packets for analysis depends on:
+* Issue being investigated
+* Usefulness of the packets captured depending upon the ability to capture packets
+* Technical obstacles faced during capture
+
 ## Filters
+
+### Capture Filters
+
+### Display Filters
 
 
 
