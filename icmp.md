@@ -22,9 +22,20 @@ The Ubuntu machine has Wireshark running with ICMP packets displayed.
 
 ## ICMP traceroutes
 A variation of ping functionality is used to perform a traceroute (also known as traceroute), which is a list of the IP addresses of the router interfaces that packets traverse to get from a sending device to a target host or device. The traceroutes are used to determine or confirm the network path taken from a sending device to a target host or device.
+
+
+![Screenshot 2021-08-14 at 5 28 43 PM](https://user-images.githubusercontent.com/42912140/129445612-79ac0ca1-0b63-4647-8aee-004bb2a6904f.png)
+
+
 A traceroute is accomplished by sending the ICMP echo request packets to a distant host just as in a normal ping, but with modifications to the Time-to-Live (TTL)
 field in the IP header of each packet. The traceroute function takes advantage of
 the fact that each router in a network path decrements the TTL value in a packet by 1, so as the packet traverses, the routers in a path and the TTL value will decrease accordingly along the way. If a router receives a packet with a TTL value of 1, it will send an ICMP TTL exceeded in transit (Type 11, Code 0) error message back to the sender (along with a copy of the request packet it received) and otherwise discard (not forward) the packet.
+
+
+
+![Screenshot 2021-08-14 at 5 26 45 PM](https://user-images.githubusercontent.com/42912140/129445601-a022b7e8-b35d-4968-839e-7074e321b1b0.png)
+
+![Screenshot 2021-08-14 at 5 26 35 PM](https://user-images.githubusercontent.com/42912140/129445573-0fd33c8a-3755-4d1d-af38-c52f288ffb32.png)
 
 
 
