@@ -12,6 +12,10 @@ There would be 3 panes displayed- packet list, packet details and packet bytes. 
 5. Statistics: Configurable options
 6. Protocols: Capture and display specific packets
 
+## Install Wireshark
+
+
+
 ## Filters
 
 ### Capture Filters
