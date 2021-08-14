@@ -23,8 +23,20 @@ The [selection of location](location_wireshark.md) to capture packets for analys
 * Technical obstacles faced during capture
 
 ## Filters
-
 ### Capture Filters
+Capture filters are used to reduce the amount of traffic saved during a packet capture. 
+In practice, capture filters should be used sparingly, if used at all, to help make sure 
+that no packets that are important for an analysis are inadvertently missed because they 
+fall outside the capture filter parameters. Remember that you can always filter out unwanted
+traffic from a capture, but you can't do anything about missed packets once the capture is finished. 
+If you're unsure about a capture, perform the capture again with a more generous capture filter or none at all.
+
+One scenario where a capture filter is appropriate is when you want to let a capture run for a long 
+period of time. Then, you should filter out as much extraneous traffic as possible to keep capture
+file sizes under control. However, take care to make sure the capture filter you apply doesn't exclude 
+any traffic that may be useful for the analysis.
+It's usually a good idea to do some trial captures when using capture filters to verify that the filter 
+is working as desired before doing the official capture that you want to keep.
 
 ### Display Filters
 
