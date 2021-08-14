@@ -15,11 +15,10 @@
 
 
 ### Troubleshooting to run **/usr/bin/dumpcap** file
-![7  No permission to capture](https://user-images.githubusercontent.com/42912140/129437302-3883640f-aa4b-4d3e-81d0-21011523f1d6.png)
-![8  Screenshot 2021-08-14 at 11 25 11 AM](https://user-images.githubusercontent.com/42912140/129437305-64afcb37-d38a-4a77-b4e1-6c78f4240b38.png)
-![9  Screenshot 2021-08-14 at 11 42 57 AM](https://user-images.githubusercontent.com/42912140/129437311-fb8c265a-293d-42a5-999e-443e7bcf3afb.png)
-![10  Screenshot 2021-08-14 at 11 43 05 AM](https://user-images.githubusercontent.com/42912140/129437313-6f24303b-d1c3-46c3-9ea4-f590e1d0fde1.png)
-![11  Screenshot 2021-08-14 at 11 43 13 AM](https://user-images.githubusercontent.com/42912140/129437314-1807f6cf-d529-4acc-9f29-59520edc1844.png)
-![12  Screenshot 2021-08-14 at 11 44 19 AM](https://user-images.githubusercontent.com/42912140/129437318-4ec94583-29fd-464e-a51c-951ac779f391.png)
-![13  Screenshot 2021-08-14 at 11 43 37 AM](https://user-images.githubusercontent.com/42912140/129437320-de9bb92d-3075-4280-8707-2e954c08ab3f.png)
+![9  Screenshot 2021-08-14 at 11 42 57 AM](https://user-images.githubusercontent.com/42912140/129437489-ce614ec6-9116-48d7-bf1d-68ad054fdfb0.png)
+![10  Screenshot 2021-08-14 at 11 43 05 AM](https://user-images.githubusercontent.com/42912140/129437497-5b724748-b88b-4483-b894-079ef6b60537.png)
+![11  Screenshot 2021-08-14 at 11 43 13 AM](https://user-images.githubusercontent.com/42912140/129437505-240064e4-c273-4c71-b3ca-7cc0e64d7634.png)
+![12  Screenshot 2021-08-14 at 11 44 19 AM](https://user-images.githubusercontent.com/42912140/129437510-691eb35e-8630-45b4-a231-d0a87d0e25e5.png)
+![13  Screenshot 2021-08-14 at 11 43 37 AM](https://user-images.githubusercontent.com/42912140/129437513-73886d3d-0ddb-4285-9451-7bc24153e3f5.png)
+
 
