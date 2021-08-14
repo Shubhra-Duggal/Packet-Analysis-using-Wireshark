@@ -48,6 +48,9 @@ is working as desired before doing the official capture that you want to keep.
 
 ## Protocols
 
+### ICMP
+The [Internet Control Message Protocol](icmp.md) (ICMP) is used to send error messages indicating that a requested service is not available, or if device could not be reached. It is a control protocol. Although it is transported as IP datagrams, it does not carry the application data. Instead, it carries the information about the status of the network itself.
+
 ### IP
 
 ### TCP
