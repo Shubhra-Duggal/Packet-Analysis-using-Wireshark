@@ -2,7 +2,9 @@
 
 ## Introduction
 Wireshark is a packet-sniffing application. It is GUI-based. Wireshark is opensource software and supports all major operating systems- Windows, Mac OS X and Linux-based platforms. 
-The normal traffic on the network has to be analysed to be able to recognise if there is a problem in traffic flow. For example: If one has to solve problems related to working of DHCP, then they need to know ehat the DHCP working traffic is like on a network.
+The normal traffic on the network has to be analysed to be able to recognise if there is a problem in traffic flow. For example: If one has to solve problems related to working of DHCP, then they need to know ehat the DHCP working traffic is like on a network.   
+
+On occasions, Wireshark may not be able to keep up with the busy link. It is GUI tool and it called dumpcap, which is a command line tool. Dumpcap captures the packets and stores them as a disk file and Wireshark reads and presents them. There are various high performance capture appliance offered which can be used as an alternative.
 
 ## Install Wireshark
 The demonstration has been performed on a Linux environment- Ubuntu 20.04.2.0 virtual machine running on VMWare Fusion for Mac OS. The setup for the environment of operating system has not been detailed.
