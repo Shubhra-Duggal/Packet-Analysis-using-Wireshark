@@ -1,5 +1,9 @@
 # Transmission Control Protocol
 
+
+![Screenshot 2021-08-21 at 7 06 00 PM](https://user-images.githubusercontent.com/42912140/130323498-ab63894c-ed86-4680-a7bb-9dc529d04134.png)
+
+
 ## Structure
 The TCP header contents and length can vary depending on options that may be in use, but in its simplest implementation it consists of:
 • Source port and Destination port: These are well-known and registered ports are used (on servers) to access standard application services such as HTTP, FTP, SMTP, databases, and so on. Port numbers assigned to client/user sessions are usually in a higher number range and assigned sequentially.
