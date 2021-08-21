@@ -1,5 +1,8 @@
 # Internet Control Message Protocol
 
+# Structure
+![Screenshot 2021-08-22 at 3 34 59 AM](https://user-images.githubusercontent.com/42912140/130335944-75ac8220-5f08-4e55-8e01-32a8d6d90102.png)
+
 
 ## ICMP Code
 
